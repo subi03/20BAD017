@@ -1,0 +1,67 @@
+.Button {
+    margin: 6px 5%;
+    width: 90%;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0.3px 0.5px 4px gray;
+    background-color: #01161e;
+    color: white;
+    padding: 10px;
+    border-radius: 0.2rem;
+}
+
+.Cursor:hover {
+    cursor: pointer;
+}
+
+.Text {
+    margin: auto;
+    background-color: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+
+
+
+.spinner {
+    width: 30px;
+    height: 30px;
+    background-color: #DFE0DC;
+    margin: auto;
+
+    -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+    animation: sk-rotateplane 1.2s infinite ease-in-out;
+  }
+  
+  @-webkit-keyframes sk-rotateplane {
+    0% { -webkit-transform: perspective(120px) }
+    50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+    100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+  }
+  
+  @keyframes sk-rotateplane {
+    0% { 
+      transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+    } 50% { 
+      transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+    } 100% { 
+      transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+      -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+  }
+
+  @media (min-width: 500px){
+      .Button {
+          height: 100px;
+          margin: 20px 30%;
+          width: 40%;
+      }
+      .Text{
+          font-size: 4rem;
+          font-weight: 400;
+      }
+  }

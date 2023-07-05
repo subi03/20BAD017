@@ -1,0 +1,40 @@
+.ProceedsModal {
+    color: #01161e;
+    padding: 20px;
+    position: absolute;
+    top: 200px;
+    width: 85%;
+    margin-left: 2%;
+    height: auto;
+    background-color: #DFE0DC;
+    border: 1px solid #ddd;
+    box-shadow: 0.3px 0.5px 4px gray;
+    border-radius: 0.2rem;
+    z-index: 1;
+  }
+  
+  .openModal:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    content: '';
+    height: 105vh;
+  }
+
+  .openModal:hover {
+    cursor: pointer;
+  }
+
+  .ProceedsModal:hover {
+    cursor: default
+  }
+
+  @media (min-width:500px){
+      .ProceedsModal {
+          width: 40%;
+          margin-left: 28.8%
+      }
+  }

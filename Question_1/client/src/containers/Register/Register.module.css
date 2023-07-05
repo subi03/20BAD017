@@ -1,0 +1,25 @@
+.RegisterForm {
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 10px 23.5%;
+    box-sizing: border-box;
+    color: #DFE0DC;
+
+    background-color: #01161e ;
+    border-radius: 0.4rem;
+    padding: 0.9rem;
+
+}
+
+
+
+.RegisterForm h1 {
+    margin: 1% 2.5%;
+}
+
+.RegisterForm form{
+    margin: 1% 2.5%
+}
+
+.Register form Input {
+    width: 100%;
+}

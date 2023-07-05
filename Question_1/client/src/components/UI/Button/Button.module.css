@@ -1,0 +1,31 @@
+.Button {
+    font-family: 'Saira Condensed', sans-serif;
+    display: inline-block;
+    margin: 2px;
+    padding: 0.3rem 0.9rem;
+    border-radius: 0.25rem;
+    background-color: #01161E;
+    border-color:  #01161E;
+    color: #DFE0DC;
+    font-size: 1rem;
+}
+
+
+.Button:hover {
+    background-color: #182B32;
+    border-color:  #01161E;
+    cursor: pointer;
+    transition: 0.3s;
+    color:white;
+    box-shadow: 1px 1px 7px #182B32;
+}
+
+.Button:focus{
+    outline: none;
+}
+
+@media (min-width:500px){
+    .Button{
+        font-size: 1.3rem;
+    }
+}

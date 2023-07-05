@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  font-family: 'Roboto', sans-serif;
+}
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-18m { font-size: 18px; vertical-align: middle !important; }
+.material-icons.md-24m { font-size: 24px; vertical-align: middle !important; }
+.material-icons.md-36m { font-size: 36px; vertical-align: middle !important; }
+.material-icons.md-48m { font-size: 48px; vertical-align: middle !important; }
+
+.material-icons-outlined.md-18 { font-size: 18px; }
+.material-icons-outlined.md-24 { font-size: 24px; }
+.material-icons-outlined.md-36 { font-size: 36px; }
+.material-icons-outlined.md-48 { font-size: 48px; }
+.material-icons-outlined.md-18m { font-size: 18px; vertical-align: middle !important; }
+.material-icons-outlined.md-24m { font-size: 24px; vertical-align: middle !important; }
+.material-icons-outlined.md-36m { font-size: 36px; vertical-align: middle !important; }
+.material-icons-outlined.md-48m { font-size: 48px; vertical-align: middle !important; }

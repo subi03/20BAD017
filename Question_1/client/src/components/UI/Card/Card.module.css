@@ -1,0 +1,124 @@
+.Card {
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 6px 5%;
+    height: 170px;
+    width: 90%;
+    box-sizing: border-box;
+    box-shadow: 0.3px 0.5px 4px gray;
+    background-color: #01161e;
+    color: white;
+    padding: 10px;
+    border-radius: 0.2rem;
+}
+
+.Title {
+    font-size: 1.1rem;
+    background-color: rgb(5, 22, 30);;
+    color: #DFE0DC;   
+}
+
+.Times {
+    display: block;
+    font-size: 1.4rem;
+    margin-top: 12px;
+}
+
+.Status {
+    font-size: 0.7rem;
+    margin-left: 4px;
+    margin-top: -9px;
+    position: absolute;
+}
+
+.Platform {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 0.8rem;
+}
+
+hr {
+	height: 10px;
+	border: 0;
+    box-shadow: 0 8px 5px -10px #DFE0DC inset;
+    margin: 5px 0;
+}
+
+.Duration {
+    font-size: 0.8rem;
+    position: absolute;
+    margin-bottom: 4px;
+}
+
+.Arrow {
+    content: "\27F6";
+}
+
+.Destination{
+    display:block;
+    position: absolute;
+    margin-top: -8px;
+    font-size: 0.8rem;
+}
+
+.Stops {
+    display: inline-block;
+    color: lightblue;
+    font-size: 0.8rem;
+    text-decoration: underline;
+    margin-left: 3px;
+
+}
+
+.Stops:hover {
+    cursor: pointer;
+}
+
+.Late{
+    display: inline-block;
+    position: absolute;
+    font-size: 0.8rem;
+    margin-left: 25px;
+}
+
+.Red{
+    color:red
+}
+
+.Green{
+    color: green;
+}
+
+@media (min-width: 500px){
+    .Card {
+        height: 220px;
+        margin: 10px 30%;
+        width: 40%;
+    }
+    .Title{
+        font-size: 1.8rem;
+    }
+    .Destination {
+        font-size: 1rem;
+        margin-top: -14px;
+    }
+    .Times {
+        font-size: 2rem;
+    }
+    .Status {
+        font-size: 1rem;
+        margin-top: -14px;
+    }
+    .Platform {
+        font-size: 1rem;
+    }
+    .Duration {
+        font-size: 1rem;
+    }
+    .Late{
+        position: relative;
+        margin-left: 50px;
+    }
+
+
+
+}

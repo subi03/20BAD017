@@ -1,0 +1,15 @@
+.NavigationItem a {
+    list-style: none;
+    font-family: 'Saira Condensed', sans-serif;
+    color: #DFE0DC;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+    color: darkgray;
+    transition: 0.3s;
+}

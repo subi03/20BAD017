@@ -1,0 +1,36 @@
+
+.SearchForm {
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 10px 5%;
+    box-sizing: border-box;
+    color: #DFE0DC;
+
+    background-color: #01161e ;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+
+}
+
+
+
+.SearchForm form div:nth-of-type(1), div:nth-of-type(2)  {
+    display: inline-block;
+}
+
+.Radio {
+    display:flex;
+    margin-bottom: 20px;
+}
+
+.Input {
+    display: inline-block;
+}
+
+@media (min-width: 500px) {
+    .SearchForm {
+        margin: 10% 30%;
+        width: 40%;
+        font-size: 1.3rem;
+        padding: 30px;
+    }
+}
